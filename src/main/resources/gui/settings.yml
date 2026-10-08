@@ -1,0 +1,141 @@
+# Main settings menu (/tab setting).
+# item types: open | toggle | field | compact | language | close
+# Name placeholders: {c} state colour, {sym} state symbol (✓ / ×). Lore placeholders: {state} {mode} {language}.
+size: 36
+title:
+  en: "<#8a8a8a>ᴛᴀʙ <#d8d8d8>sᴇᴛᴛɪɴɢs"
+  ar: "<#8a8a8a>التاب <#d8d8d8>الإعدادات"
+items:
+  tab:
+    slot: 10
+    material: NAME_TAG
+    type: open
+    menu: tab
+    name: { en: "<#8aa4d6>• ᴛᴀʙ", ar: "<#8aa4d6>• التاب" }
+    lore:
+      en:
+        - "<#8a8a8a>ᴛᴀʙ ʟɪsᴛ ᴏᴘᴛɪᴏɴs"
+        - ""
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ"
+      ar:
+        - "<#8a8a8a>خيارات قائمة اللاعبين"
+        - ""
+        - "<#6b6b6b>اضغط للفتح"
+  scoreboard:
+    slot: 12
+    material: OAK_SIGN
+    type: open
+    menu: scoreboard
+    name: { en: "<#8aa4d6>• sᴄᴏʀᴇʙᴏᴀʀᴅ", ar: "<#8aa4d6>• السكوربورد" }
+    lore:
+      en:
+        - "<#8a8a8a>sɪᴅᴇʙᴀʀ ғɪᴇʟᴅs ᴀɴᴅ sɪᴢᴇ"
+        - ""
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ"
+      ar:
+        - "<#8a8a8a>عناصر الشريط الجانبي وحجمه"
+        - ""
+        - "<#6b6b6b>اضغط للفتح"
+  nametag:
+    slot: 14
+    material: PLAYER_HEAD
+    type: open
+    menu: nametag
+    name: { en: "<#8aa4d6>• ɴᴀᴍᴇᴛᴀɢ", ar: "<#8aa4d6>• الاسم فوق الرأس" }
+    lore:
+      en:
+        - "<#8a8a8a>ᴡʜᴀᴛ ʏᴏᴜ sᴇᴇ ᴀʙᴏᴠᴇ ʜᴇᴀᴅs"
+        - ""
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ"
+      ar:
+        - "<#8a8a8a>ما تراه فوق رؤوس اللاعبين"
+        - ""
+        - "<#6b6b6b>اضغط للفتح"
+  privacy:
+    slot: 16
+    material: ENDER_EYE
+    type: open
+    menu: privacy
+    name: { en: "<#8aa4d6>• ᴘʀɪᴠᴀᴄʏ", ar: "<#8aa4d6>• الخصوصية" }
+    lore:
+      en:
+        - "<#8a8a8a>ᴡʜᴀᴛ ᴏᴛʜᴇʀs sᴇᴇ ᴀʙᴏᴜᴛ ʏᴏᴜ"
+        - ""
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ"
+      ar:
+        - "<#8a8a8a>ما يراه الآخرون عنك"
+        - ""
+        - "<#6b6b6b>اضغط للفتح"
+  language:
+    slot: 19
+    material: BOOK
+    type: language
+    name: { en: "<#8aa4d6>• ʟᴀɴɢᴜᴀɢᴇ", ar: "<#8aa4d6>• اللغة" }
+    lore:
+      en:
+        - "<#8a8a8a>ᴄᴜʀʀᴇɴᴛ: <#d8d8d8>{language}"
+        - ""
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+      ar:
+        - "<#8a8a8a>الحالية: <#d8d8d8>{language}"
+        - ""
+        - "<#6b6b6b>اضغط للتبديل"
+  animations:
+    slot: 21
+    material: CLOCK
+    type: toggle
+    setting: animations
+    name: { en: "<{c}>{sym} ᴀɴɪᴍᴀᴛɪᴏɴs", ar: "<{c}>{sym} الحركات" }
+    lore:
+      en:
+        - "{state}"
+        - "<#8a8a8a>ᴀɴɪᴍᴀᴛᴇᴅ ᴛᴇxᴛ"
+        - ""
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+      ar:
+        - "{state}"
+        - "<#8a8a8a>النصوص المتحركة"
+        - ""
+        - "<#6b6b6b>اضغط للتبديل"
+  sounds:
+    slot: 23
+    material: NOTE_BLOCK
+    type: toggle
+    setting: sounds
+    name: { en: "<{c}>{sym} sᴏᴜɴᴅs", ar: "<{c}>{sym} الأصوات" }
+    lore:
+      en:
+        - "{state}"
+        - "<#8a8a8a>ᴍᴇɴᴜ ᴀɴᴅ ғᴇᴇᴅʙᴀᴄᴋ sᴏᴜɴᴅs"
+        - ""
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+      ar:
+        - "{state}"
+        - "<#8a8a8a>أصوات القوائم والتنبيهات"
+        - ""
+        - "<#6b6b6b>اضغط للتبديل"
+  messages:
+    slot: 25
+    material: PAPER
+    type: toggle
+    setting: messages
+    name: { en: "<{c}>{sym} ᴍᴇssᴀɢᴇs", ar: "<{c}>{sym} الرسائل" }
+    lore:
+      en:
+        - "{state}"
+        - "<#8a8a8a>ᴄʜᴀᴛ ғᴇᴇᴅʙᴀᴄᴋ"
+        - ""
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+      ar:
+        - "{state}"
+        - "<#8a8a8a>رسائل الشات"
+        - ""
+        - "<#6b6b6b>اضغط للتبديل"
+  close:
+    slot: 31
+    material: BARRIER
+    type: close
+    name: { en: "<#d96c6c>× ᴄʟᴏsᴇ", ar: "<#d96c6c>× إغلاق" }
+    lore:
+      en: []
+      ar: []

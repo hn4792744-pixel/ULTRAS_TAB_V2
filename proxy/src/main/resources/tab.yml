@@ -1,0 +1,101 @@
+# TAB design. Header/footer per language, per-world profiles, groups (sorting + rank label).
+enabled: true
+
+# How a player's name looks in the tab list.
+#   {rank} = the group label in its color, {color} = the group color, {name} = player name
+name-format:
+  with-rank: "<dark_gray>[</dark_gray>{rank}<dark_gray>]</dark_gray> {color}{name}"
+  no-rank: "{color}{name}"
+
+# Groups. ORDER = TAB SORT ORDER (first = top of the list). A player belongs to the first group
+# (top to bottom) whose permission they have: ultrastab.group.<name>. "default" is the fallback.
+# An empty display means no [rank] label for that group.
+groups:
+  owner:
+    display: { en: "OWNER", ar: "المالك" }
+    color: "#FF5555"
+  co-owner:
+    display: { en: "CO-OWNER", ar: "مساعد المالك" }
+    color: "#FF7755"
+  dev:
+    display: { en: "DEV", ar: "مطور" }
+    color: "#55FFFF"
+  mod:
+    display: { en: "MOD", ar: "مشرف" }
+    color: "#55FF55"
+  helper:
+    display: { en: "HELPER", ar: "مساعد" }
+    color: "#FFFF55"
+  legend:
+    display: { en: "LEGEND", ar: "أسطورة" }
+    color: "#FFAA00"
+  ace:
+    display: { en: "ACE", ar: "إيس" }
+    color: "#AA55FF"
+  media:
+    display: { en: "MEDIA", ar: "ميديا" }
+    color: "#FF55FF"
+  default:
+    display: { en: "", ar: "" }
+    color: "#FFFFFF"
+
+# Profiles. Each lists the worlds it is shown in. Players in a world no profile lists get the
+# profile named in config.yml (unlisted-world-profile).
+#
+# To make a different TAB for another world: copy the whole "default" block below, give it a
+# new name and change its worlds, e.g.
+#
+#   event:
+#     worlds:
+#       - event_world
+#
+# header/footer "lines" can be a plain list (same for both languages) or have en / ar lists.
+profiles:
+  default:
+    enabled: true
+    worlds:
+      - world
+      - world_nether
+      - world_the_end
+    player-list:
+      enabled: true
+    header:
+      enabled: true
+      lines:
+        en:
+          - ""
+          - "<b>%animation:UltraS%</b>"
+          - "&7ꜱᴜʀᴠɪᴠᴀʟ"
+          - ""
+          - "&fSurvival <#FF0000>%online%</#FF0000>"
+          - ""
+        ar:
+          - ""
+          - "<b>%animation:UltraS%</b>"
+          - "&7ꜱᴜʀᴠɪᴠᴀʟ"
+          - ""
+          - "&fسيرفايفل <#FF0000>%online%</#FF0000>"
+          - ""
+    footer:
+      enabled: true
+      lines:
+        en:
+          - ""
+          - "%animation:tab_meniu%"
+          - ""
+          - "%animation:tab_text1%"
+          - "%animation:tab_text2%"
+          - ""
+          - "%animation:tab_progres%"
+          - ""
+          - "&7ᴜʟᴛʀᴀꜱ ᴄʟᴜʙ"
+        ar:
+          - ""
+          - "%animation:tab_meniu%"
+          - ""
+          - "%animation:tab_text1%"
+          - "%animation:tab_text2%"
+          - ""
+          - "%animation:tab_progres%"
+          - ""
+          - "&7ᴜʟᴛʀᴀꜱ ᴄʟᴜʙ"

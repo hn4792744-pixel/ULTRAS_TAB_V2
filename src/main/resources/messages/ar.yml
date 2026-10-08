@@ -1,0 +1,67 @@
+# ULTRAS_TAB_V1 - الرسائل العربية messages (MiniMessage). {placeholders} are filled by the plugin.
+# Style: ULTRAS│ <symbol> message   (✓ success, × error, ! warning, • info)
+prefix: "<gradient:#ff5a4d:#8b0000>ULTRAS</gradient><#8a8a8a>│</#8a8a8a> "
+state:
+  "on": "مفعّل"
+  "off": "معطّل"
+gui:
+  "on": "<#7fc29b>✓ مفعّل"
+  "off": "<#d96c6c>× معطّل"
+toggle: "{prefix}<{c}>{sym} {label} {state}"
+label:
+  tab: "التاب"
+  scoreboard: "السكوربورد"
+  animations: "الحركات"
+  sounds: "الأصوات"
+  messages: "الرسائل"
+  tab-rank: "رتبة التاب"
+  nametag-rank: "رتبة الاسم"
+  nametag-ranks: "رتب الآخرين"
+  nametag-name: "أسماء اللاعبين"
+  fields-all: "كل العناصر"
+field:
+  server: "السيرفر"
+  name: "الاسم"
+  rank: "الرتبة"
+  money: "المال"
+  uc: "UC"
+  kills: "القتل"
+  deaths: "الموت"
+  playtime: "وقت اللعب"
+  online: "المتصلون"
+  ping: "البنق"
+compact:
+  set: "{prefix}<#8aa4d6>• الوضع المختصر</#8aa4d6> {mode}"
+  mode:
+    "0": "<#d8d8d8>كامل</#d8d8d8> <#8a8a8a>(100%)</#8a8a8a>"
+    "1": "<#d8d8d8>مختصر ١</#d8d8d8> <#8a8a8a>(80%)</#8a8a8a>"
+    "2": "<#d8d8d8>مختصر ٢</#d8d8d8> <#8a8a8a>(60%)</#8a8a8a>"
+    "3": "<#d8d8d8>مختصر ٣</#d8d8d8> <#8a8a8a>(40%)</#8a8a8a>"
+language:
+  changed: "{prefix}<#7fc29b>✓ اللغة</#7fc29b> <#d8d8d8>{language}"
+  name:
+    en: "الإنجليزية"
+    ar: "العربية"
+reload:
+  success: "{prefix}<#7fc29b>✓ تمت إعادة التحميل"
+  failure: "{prefix}<#d96c6c>× فشلت إعادة التحميل <#8a8a8a>{error}"
+admin:
+  reset: "{prefix}<#7fc29b>✓ إعادة ضبط <#d8d8d8>{player}"
+error:
+  no-permission: "{prefix}<#d96c6c>× لا تملك الصلاحية"
+  player-only: "{prefix}<#d96c6c>× للاعبين فقط"
+  unknown: "{prefix}<#d96c6c>× أمر غير معروف <#8a8a8a>/tab"
+  unknown-field: "{prefix}<#d96c6c>× عنصر غير معروف <#8a8a8a>{input}"
+  language: "{prefix}<#d96c6c>× استخدم en أو ar"
+  player-not-found: "{prefix}<#d96c6c>× اللاعب غير موجود <#8a8a8a>{input}"
+  usage: "{prefix}<#d9b26a>! الاستخدام <#8a8a8a>• {usage}"
+help:
+  header: "{prefix}<#d8d8d8>ULTRAS TAB</#d8d8d8> <#8a8a8a>•</#8a8a8a> <#8a8a8a>الأوامر</#8a8a8a>"
+  lines:
+    - "<#8a8a8a>→</#8a8a8a> <#d8d8d8>/tab setting</#d8d8d8> <#8a8a8a>فتح قائمة الإعدادات</#8a8a8a>"
+    - "<#8a8a8a>→</#8a8a8a> <#d8d8d8>/tab tab</#d8d8d8> <#8a8a8a>تشغيل/إيقاف التاب</#8a8a8a>"
+    - "<#8a8a8a>→</#8a8a8a> <#d8d8d8>/tab scoreboard</#d8d8d8> <#8a8a8a>[name|money|...|all|compact]</#8a8a8a>"
+    - "<#8a8a8a>→</#8a8a8a> <#d8d8d8>/tab animations</#d8d8d8> <#8a8a8a>تشغيل/إيقاف الحركات</#8a8a8a>"
+    - "<#8a8a8a>→</#8a8a8a> <#d8d8d8>/tab sound</#d8d8d8> <#8a8a8a>/ messages</#8a8a8a>"
+    - "<#8a8a8a>→</#8a8a8a> <#d8d8d8>/tab language</#d8d8d8> <#8a8a8a>[en|ar]</#8a8a8a>"
+    - "<#8a8a8a>→</#8a8a8a> <#d8d8d8>/tab tab-rank</#d8d8d8> <#8a8a8a>/ nametag-rank / nametag-ranks / nametag-name</#8a8a8a>"

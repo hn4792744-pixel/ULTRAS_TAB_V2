@@ -1,0 +1,67 @@
+# ULTRAS_TAB_V1 - English messages (MiniMessage). {placeholders} are filled by the plugin.
+# Style: ULTRAS│ <symbol> message   (✓ success, × error, ! warning, • info)
+prefix: "<gradient:#ff5a4d:#8b0000>ULTRAS</gradient><#8a8a8a>│</#8a8a8a> "
+state:
+  "on": "ᴇɴᴀʙʟᴇᴅ"
+  "off": "ᴅɪsᴀʙʟᴇᴅ"
+gui:
+  "on": "<#7fc29b>✓ ᴇɴᴀʙʟᴇᴅ"
+  "off": "<#d96c6c>× ᴅɪsᴀʙʟᴇᴅ"
+toggle: "{prefix}<{c}>{sym} {label} {state}"
+label:
+  tab: "ᴛᴀʙ"
+  scoreboard: "sᴄᴏʀᴇʙᴏᴀʀᴅ"
+  animations: "ᴀɴɪᴍᴀᴛɪᴏɴs"
+  sounds: "sᴏᴜɴᴅs"
+  messages: "ᴍᴇssᴀɢᴇs"
+  tab-rank: "ᴛᴀʙ ʀᴀɴᴋ"
+  nametag-rank: "ɴᴀᴍᴇᴛᴀɢ ʀᴀɴᴋ"
+  nametag-ranks: "ᴏᴛʜᴇʀ ʀᴀɴᴋs"
+  nametag-name: "ɴᴀᴍᴇᴛᴀɢ ɴᴀᴍᴇs"
+  fields-all: "ᴀʟʟ ғɪᴇʟᴅs"
+field:
+  server: "sᴇʀᴠᴇʀ"
+  name: "ɴᴀᴍᴇ"
+  rank: "ʀᴀɴᴋ"
+  money: "ᴍᴏɴᴇʏ"
+  uc: "ᴜᴄ"
+  kills: "ᴋɪʟʟs"
+  deaths: "ᴅᴇᴀᴛʜs"
+  playtime: "ᴘʟᴀʏᴛɪᴍᴇ"
+  online: "ᴏɴʟɪɴᴇ"
+  ping: "ᴘɪɴɢ"
+compact:
+  set: "{prefix}<#8aa4d6>• ᴄᴏᴍᴘᴀᴄᴛ</#8aa4d6> {mode}"
+  mode:
+    "0": "<#d8d8d8>ғᴜʟʟ</#d8d8d8> <#8a8a8a>(100%)</#8a8a8a>"
+    "1": "<#d8d8d8>ᴄᴏᴍᴘᴀᴄᴛ ɪ</#d8d8d8> <#8a8a8a>(80%)</#8a8a8a>"
+    "2": "<#d8d8d8>ᴄᴏᴍᴘᴀᴄᴛ ɪɪ</#d8d8d8> <#8a8a8a>(60%)</#8a8a8a>"
+    "3": "<#d8d8d8>ᴄᴏᴍᴘᴀᴄᴛ ɪɪɪ</#d8d8d8> <#8a8a8a>(40%)</#8a8a8a>"
+language:
+  changed: "{prefix}<#7fc29b>✓ ʟᴀɴɢᴜᴀɢᴇ</#7fc29b> <#d8d8d8>{language}"
+  name:
+    en: "ᴇɴɢʟɪsʜ"
+    ar: "ᴀʀᴀʙɪᴄ"
+reload:
+  success: "{prefix}<#7fc29b>✓ ʀᴇʟᴏᴀᴅ ᴄᴏɴғɪʀᴍᴇᴅ"
+  failure: "{prefix}<#d96c6c>× ʀᴇʟᴏᴀᴅ ғᴀɪʟᴇᴅ <#8a8a8a>{error}"
+admin:
+  reset: "{prefix}<#7fc29b>✓ ʀᴇsᴇᴛ <#d8d8d8>{player}"
+error:
+  no-permission: "{prefix}<#d96c6c>× ɴᴏ ᴘᴇʀᴍɪssɪᴏɴ"
+  player-only: "{prefix}<#d96c6c>× ᴘʟᴀʏᴇʀs ᴏɴʟʏ"
+  unknown: "{prefix}<#d96c6c>× ᴜɴᴋɴᴏᴡɴ ᴄᴏᴍᴍᴀɴᴅ <#8a8a8a>/tab"
+  unknown-field: "{prefix}<#d96c6c>× ᴜɴᴋɴᴏᴡɴ ғɪᴇʟᴅ <#8a8a8a>{input}"
+  language: "{prefix}<#d96c6c>× ᴜsᴇ ᴇɴ ᴏʀ ᴀʀ"
+  player-not-found: "{prefix}<#d96c6c>× ᴘʟᴀʏᴇʀ ɴᴏᴛ ғᴏᴜɴᴅ <#8a8a8a>{input}"
+  usage: "{prefix}<#d9b26a>! ᴜsᴀɢᴇ <#8a8a8a>• {usage}"
+help:
+  header: "{prefix}<#d8d8d8>ᴜʟᴛʀᴀs ᴛᴀʙ</#d8d8d8> <#8a8a8a>•</#8a8a8a> <#8a8a8a>ᴄᴏᴍᴍᴀɴᴅs</#8a8a8a>"
+  lines:
+    - "<#8a8a8a>→</#8a8a8a> <#d8d8d8>/tab setting</#d8d8d8> <#8a8a8a>ᴏᴘᴇɴ ᴛʜᴇ sᴇᴛᴛɪɴɢs ᴍᴇɴᴜ</#8a8a8a>"
+    - "<#8a8a8a>→</#8a8a8a> <#d8d8d8>/tab tab</#d8d8d8> <#8a8a8a>ᴛᴀʙ ʟɪsᴛ ᴏɴ/ᴏғғ</#8a8a8a>"
+    - "<#8a8a8a>→</#8a8a8a> <#d8d8d8>/tab scoreboard</#d8d8d8> <#8a8a8a>[name|money|...|all|compact]</#8a8a8a>"
+    - "<#8a8a8a>→</#8a8a8a> <#d8d8d8>/tab animations</#d8d8d8> <#8a8a8a>ᴀɴɪᴍᴀᴛɪᴏɴs ᴏɴ/ᴏғғ</#8a8a8a>"
+    - "<#8a8a8a>→</#8a8a8a> <#d8d8d8>/tab sound</#d8d8d8> <#8a8a8a>/ messages</#8a8a8a>"
+    - "<#8a8a8a>→</#8a8a8a> <#d8d8d8>/tab language</#d8d8d8> <#8a8a8a>[en|ar]</#8a8a8a>"
+    - "<#8a8a8a>→</#8a8a8a> <#d8d8d8>/tab tab-rank</#d8d8d8> <#8a8a8a>/ nametag-rank / nametag-ranks / nametag-name</#8a8a8a>"

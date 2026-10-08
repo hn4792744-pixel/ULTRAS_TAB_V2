@@ -1,0 +1,51 @@
+# Privacy settings (what others see about you).
+# item types: open | toggle | field | compact | language | close
+# Name placeholders: {c} state colour, {sym} state symbol (✓ / ×). Lore placeholders: {state} {mode} {language}.
+size: 27
+title:
+  en: "<#8a8a8a>ᴛᴀʙ <#d8d8d8>ᴘʀɪᴠᴀᴄʏ"
+  ar: "<#8a8a8a>التاب <#d8d8d8>الخصوصية"
+items:
+  tab-rank:
+    slot: 12
+    material: GOLD_INGOT
+    type: toggle
+    setting: tab-rank
+    name: { en: "<{c}>{sym} ʀᴀɴᴋ ɪɴ ᴛᴀʙ", ar: "<{c}>{sym} الرتبة في التاب" }
+    lore:
+      en:
+        - "{state}"
+        - "<#8a8a8a>ᴏᴛʜᴇʀs sᴇᴇ ʏᴏᴜʀ ʀᴀɴᴋ ɪɴ ᴛʜᴇ ᴛᴀʙ ʟɪsᴛ"
+        - ""
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+      ar:
+        - "{state}"
+        - "<#8a8a8a>يرى الآخرون رتبتك في قائمة اللاعبين"
+        - ""
+        - "<#6b6b6b>اضغط للتبديل"
+  nametag-rank:
+    slot: 14
+    material: NAME_TAG
+    type: toggle
+    setting: nametag-rank
+    name: { en: "<{c}>{sym} ʀᴀɴᴋ ᴀʙᴏᴠᴇ ʜᴇᴀᴅ", ar: "<{c}>{sym} الرتبة فوق الرأس" }
+    lore:
+      en:
+        - "{state}"
+        - "<#8a8a8a>ᴏᴛʜᴇʀs sᴇᴇ ʏᴏᴜʀ ʀᴀɴᴋ ᴀʙᴏᴠᴇ ʏᴏᴜʀ ʜᴇᴀᴅ"
+        - ""
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+      ar:
+        - "{state}"
+        - "<#8a8a8a>يرى الآخرون رتبتك فوق رأسك"
+        - ""
+        - "<#6b6b6b>اضغط للتبديل"
+  back:
+    slot: 22
+    material: ARROW
+    type: open
+    menu: settings
+    name: { en: "<#8a8a8a>• ʙᴀᴄᴋ", ar: "<#8a8a8a>• رجوع" }
+    lore:
+      en: []
+      ar: []

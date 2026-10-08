@@ -1,0 +1,51 @@
+# Nametag settings (what you see).
+# item types: open | toggle | field | compact | language | close
+# Name placeholders: {c} state colour, {sym} state symbol (✓ / ×). Lore placeholders: {state} {mode} {language}.
+size: 27
+title:
+  en: "<#8a8a8a>ᴛᴀʙ <#d8d8d8>ɴᴀᴍᴇᴛᴀɢ"
+  ar: "<#8a8a8a>التاب <#d8d8d8>الاسم فوق الرأس"
+items:
+  nametag-ranks:
+    slot: 12
+    material: NAME_TAG
+    type: toggle
+    setting: nametag-ranks
+    name: { en: "<{c}>{sym} ᴏᴛʜᴇʀ ᴘʟᴀʏᴇʀs' ʀᴀɴᴋs", ar: "<{c}>{sym} رتب الآخرين" }
+    lore:
+      en:
+        - "{state}"
+        - "<#8a8a8a>sᴇᴇ ʀᴀɴᴋs ᴀʙᴏᴠᴇ ᴏᴛʜᴇʀ ʜᴇᴀᴅs"
+        - ""
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+      ar:
+        - "{state}"
+        - "<#8a8a8a>رؤية الرتب فوق رؤوس الآخرين"
+        - ""
+        - "<#6b6b6b>اضغط للتبديل"
+  nametag-name:
+    slot: 14
+    material: PLAYER_HEAD
+    type: toggle
+    setting: nametag-name
+    name: { en: "<{c}>{sym} ᴘʟᴀʏᴇʀ ɴᴀᴍᴇs", ar: "<{c}>{sym} أسماء اللاعبين" }
+    lore:
+      en:
+        - "{state}"
+        - "<#8a8a8a>ʜɪᴅᴇs ᴛʜᴇ ᴡʜᴏʟᴇ ɴᴀᴍᴇᴛᴀɢ ᴡʜᴇɴ ᴏғғ"
+        - ""
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+      ar:
+        - "{state}"
+        - "<#8a8a8a>يخفي الاسم بالكامل عند التعطيل"
+        - ""
+        - "<#6b6b6b>اضغط للتبديل"
+  back:
+    slot: 22
+    material: ARROW
+    type: open
+    menu: settings
+    name: { en: "<#8a8a8a>• ʙᴀᴄᴋ", ar: "<#8a8a8a>• رجوع" }
+    lore:
+      en: []
+      ar: []

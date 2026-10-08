@@ -1,0 +1,185 @@
+# Scoreboard settings. Field items use the line ids from scoreboard.yml.
+# item types: open | toggle | field | compact | language | close
+# Name placeholders: {c} state colour, {sym} state symbol (✓ / ×). Lore placeholders: {state} {mode} {language}.
+size: 45
+title:
+  en: "<#8a8a8a>ᴛᴀʙ <#d8d8d8>sᴄᴏʀᴇʙᴏᴀʀᴅ"
+  ar: "<#8a8a8a>التاب <#d8d8d8>السكوربورد"
+items:
+  scoreboard:
+    slot: 4
+    material: OAK_SIGN
+    type: toggle
+    setting: scoreboard
+    name: { en: "<{c}>{sym} sᴄᴏʀᴇʙᴏᴀʀᴅ", ar: "<{c}>{sym} السكوربورد" }
+    lore:
+      en:
+        - "{state}"
+        - "<#8a8a8a>sʜᴏᴡ ᴛʜᴇ sɪᴅᴇʙᴀʀ"
+        - ""
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+      ar:
+        - "{state}"
+        - "<#8a8a8a>إظهار الشريط الجانبي"
+        - ""
+        - "<#6b6b6b>اضغط للتبديل"
+  name:
+    slot: 10
+    material: PLAYER_HEAD
+    type: field
+    field: name
+    name: { en: "<{c}>{sym} ɴᴀᴍᴇ", ar: "<{c}>{sym} الاسم" }
+    lore:
+      en:
+        - "{state}"
+        - ""
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+      ar:
+        - "{state}"
+        - ""
+        - "<#6b6b6b>اضغط للتبديل"
+  rank:
+    slot: 11
+    material: GOLD_INGOT
+    type: field
+    field: rank
+    name: { en: "<{c}>{sym} ʀᴀɴᴋ", ar: "<{c}>{sym} الرتبة" }
+    lore:
+      en:
+        - "{state}"
+        - ""
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+      ar:
+        - "{state}"
+        - ""
+        - "<#6b6b6b>اضغط للتبديل"
+  money:
+    slot: 12
+    material: EMERALD
+    type: field
+    field: money
+    name: { en: "<{c}>{sym} ᴍᴏɴᴇʏ", ar: "<{c}>{sym} المال" }
+    lore:
+      en:
+        - "{state}"
+        - ""
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+      ar:
+        - "{state}"
+        - ""
+        - "<#6b6b6b>اضغط للتبديل"
+  uc:
+    slot: 13
+    material: SUNFLOWER
+    type: field
+    field: uc
+    name: { en: "<{c}>{sym} ᴜᴄ", ar: "<{c}>{sym} UC" }
+    lore:
+      en:
+        - "{state}"
+        - ""
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+      ar:
+        - "{state}"
+        - ""
+        - "<#6b6b6b>اضغط للتبديل"
+  kills:
+    slot: 14
+    material: IRON_SWORD
+    type: field
+    field: kills
+    name: { en: "<{c}>{sym} ᴋɪʟʟs", ar: "<{c}>{sym} القتل" }
+    lore:
+      en:
+        - "{state}"
+        - ""
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+      ar:
+        - "{state}"
+        - ""
+        - "<#6b6b6b>اضغط للتبديل"
+  deaths:
+    slot: 15
+    material: SKELETON_SKULL
+    type: field
+    field: deaths
+    name: { en: "<{c}>{sym} ᴅᴇᴀᴛʜs", ar: "<{c}>{sym} الموت" }
+    lore:
+      en:
+        - "{state}"
+        - ""
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+      ar:
+        - "{state}"
+        - ""
+        - "<#6b6b6b>اضغط للتبديل"
+  playtime:
+    slot: 16
+    material: CLOCK
+    type: field
+    field: playtime
+    name: { en: "<{c}>{sym} ᴘʟᴀʏᴛɪᴍᴇ", ar: "<{c}>{sym} وقت اللعب" }
+    lore:
+      en:
+        - "{state}"
+        - ""
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+      ar:
+        - "{state}"
+        - ""
+        - "<#6b6b6b>اضغط للتبديل"
+  online:
+    slot: 20
+    material: HEART_OF_THE_SEA
+    type: field
+    field: online
+    name: { en: "<{c}>{sym} ᴏɴʟɪɴᴇ", ar: "<{c}>{sym} المتصلون" }
+    lore:
+      en:
+        - "{state}"
+        - ""
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+      ar:
+        - "{state}"
+        - ""
+        - "<#6b6b6b>اضغط للتبديل"
+  ping:
+    slot: 24
+    material: REDSTONE
+    type: field
+    field: ping
+    name: { en: "<{c}>{sym} ᴘɪɴɢ", ar: "<{c}>{sym} البنق" }
+    lore:
+      en:
+        - "{state}"
+        - ""
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+      ar:
+        - "{state}"
+        - ""
+        - "<#6b6b6b>اضغط للتبديل"
+  compact:
+    slot: 22
+    material: COMPARATOR
+    type: compact
+    name: { en: "<#8aa4d6>• ᴄᴏᴍᴘᴀᴄᴛ ᴍᴏᴅᴇ", ar: "<#8aa4d6>• الوضع المختصر" }
+    lore:
+      en:
+        - "<#8a8a8a>ᴍᴏᴅᴇ: {mode}"
+        - "<#8a8a8a>ғᴇᴡᴇʀ ʟɪɴᴇs ғᴏʀ ᴀ sᴍᴀʟʟᴇʀ ʙᴏᴀʀᴅ"
+        - ""
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴀɴɢᴇ"
+      ar:
+        - "<#8a8a8a>الوضع: {mode}"
+        - "<#8a8a8a>أسطر أقل لسكوربورد أصغر"
+        - ""
+        - "<#6b6b6b>اضغط للتغيير"
+  back:
+    slot: 40
+    material: ARROW
+    type: open
+    menu: settings
+    name: { en: "<#8a8a8a>• ʙᴀᴄᴋ", ar: "<#8a8a8a>• رجوع" }
+    lore:
+      en: []
+      ar: []

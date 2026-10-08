@@ -1,0 +1,43 @@
+# Scoreboard design. One profile per world set; every line can be shown/hidden by the player
+# when it has an "id", and dropped by compact modes according to its "priority".
+#
+# Line formats:
+#   - "plain text"                          shared by both languages, always shown
+#   - { id: money, priority: 1, en: "...", ar: "..." }   hideable + compact-aware, per language
+#       id        optional; lets players hide it with /tab scoreboard <id>
+#       priority  1 (most important) .. 4;  compact I keeps <=3, II keeps <=2, III keeps only 1
+#       text      shared text (use instead of en/ar when both are identical)
+#   - ""                                    a spacer (removed automatically in compact modes)
+# Maximum 15 lines are shown (Minecraft limit).
+#
+# Built-in placeholders (work without PlaceholderAPI):
+#   %player% %online% %max% %ping% %world% %rank% %group% %money% (Vault) %uc% %kills% %deaths% %playtime%
+# Any PlaceholderAPI placeholder also works when PlaceholderAPI is installed.
+#
+# To give another world its own scoreboard, copy the "default" block, rename it and change worlds.
+enabled: true
+
+scoreboards:
+  default:
+    enabled: true
+    worlds:
+      - world
+      - world_nether
+      - world_the_end
+    title:
+      en: "<b>%animation:UltraS%</b>"
+      ar: "<b>%animation:UltraS%</b>"
+    lines:
+      - { id: server, priority: 2, text: "      &7ꜱᴜʀᴠɪᴠᴀʟ" }
+      - ""
+      - { id: name, priority: 3, en: "&#FFFFFF👤 &fName: &#FFFFFF%player%", ar: "&#FFFFFF👤 &fالاسم: &#FFFFFF%player%" }
+      - { id: rank, priority: 3, en: "&#FFAA00★ &fRank: &#FFAA00%rank%", ar: "&#FFAA00★ &fالرتبة: &#FFAA00%rank%" }
+      - { id: money, priority: 1, en: "&#00FC00&l$ &fMoney: &#00FC00%money%", ar: "&#00FC00&l$ &fالمال: &#00FC00%money%" }
+      - { id: uc, priority: 2, en: "&#FCD05C💲 &fUC: &#FCD05C%uc%", ar: "&#FCD05C💲 &fUC: &#FCD05C%uc%" }
+      - ""
+      - { id: kills, priority: 3, en: "&#FC0000🗡 &fKills: &#FC0000%kills%", ar: "&#FC0000🗡 &fالقتل: &#FC0000%kills%" }
+      - { id: deaths, priority: 3, en: "&#F97603☠ &fDeaths: &#F97603%deaths%", ar: "&#F97603☠ &fالموت: &#F97603%deaths%" }
+      - { id: playtime, priority: 4, en: "&#FCE300⌚ &fPlaytime: &#FCE300%playtime%", ar: "&#FCE300⌚ &fوقت اللعب: &#FCE300%playtime%" }
+      - ""
+      - { id: online, priority: 1, en: "&#FCD05C🌊 &fOnline: &#FCD05C%online%", ar: "&#FCD05C🌊 &fالمتصلون: &#FCD05C%online%" }
+      - { id: ping, priority: 4, en: "&7Ping: &#FF0000%ping%&7ms", ar: "&7البنق: &#FF0000%ping%&7ms" }

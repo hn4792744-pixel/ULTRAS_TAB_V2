@@ -1,0 +1,54 @@
+# ULTRAS_TAB_V1 - general settings only.
+# TAB design      -> tab.yml
+# Scoreboard      -> scoreboard.yml
+# Nametags        -> nametag.yml
+# Animations      -> animations.yml
+# Messages        -> messages/en.yml, messages/ar.yml
+# Settings menus  -> gui/*.yml
+
+enabled: true
+
+# Language for new players and for the console (en / ar). Players change theirs with /tab language.
+default-language: en
+
+# Milliseconds between refreshes of text that contains placeholders (%online%, %ping%, ...).
+# Animations use their own interval from animations.yml. Minimum 250.
+update-interval: 1000
+
+# Profile (from tab.yml / scoreboard.yml) used in worlds that no profile lists.
+# Leave empty ("") to show nothing in unlisted worlds.
+unlisted-world-profile: default
+
+sounds:
+  enabled: true
+  # sound.key:volume:pitch  (vanilla sound keys; leave empty to silence one effect)
+  effects:
+    open: "block.ender_chest.open:0.4:1.4"
+    click: "ui.button.click:0.5:1.2"
+    "on": "block.note_block.pling:0.5:1.6"
+    "off": "block.note_block.bass:0.5:0.8"
+    success: "entity.player.levelup:0.4:1.6"
+    error: "entity.villager.no:0.6:1.0"
+    language: "block.amethyst_block.chime:0.6:1.2"
+    setting: "ui.button.click:0.4:1.0"
+
+gui:
+  # Fill empty menu slots with plain black glass panes (off = clean menus, no glass).
+  filler: false
+
+placeholders:
+  # Text shown for a placeholder that nothing could resolve (plugin missing, etc.).
+  unresolved: "-"
+
+# Optional integrations. Both are used only when the plugin is installed; nothing breaks without them.
+integrations:
+  placeholderapi: true
+  vault: true
+
+permissions:
+  # Permission needed for the personal /tab commands ("" = everyone).
+  use: ""
+  # A player belongs to group X when they have this prefix + X, e.g. ultrastab.group.owner
+  group-prefix: "ultrastab.group."
+
+debug: false

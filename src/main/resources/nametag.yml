@@ -1,0 +1,11 @@
+# Nametags above heads: [RANK] Name. Colors come from the groups in tab.yml.
+enabled: true
+
+format:
+  # Prefix shown before the name when the rank is visible. {rank} = group label in its color.
+  rank: "<dark_gray>[</dark_gray>{rank}<dark_gray>]</dark_gray> "
+
+visibility:
+  # Server-wide switches. Players still choose for themselves with /tab nametag-* commands.
+  show-rank: true
+  show-name: true

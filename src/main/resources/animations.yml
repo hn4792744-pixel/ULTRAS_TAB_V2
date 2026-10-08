@@ -1,0 +1,95 @@
+# Animations. Use them in any text as %animation:<name>%.
+# interval = milliseconds per frame. frames = shared list, or per-language (en / ar).
+# The first frame is shown to players who turned animations off.
+
+tab_meniu:
+  interval: 4000
+  frames:
+    en:
+      - "#18C7FF⚓ &l&nDISCORD&r &7&l▪ &6$ &lSTORE &7&l▪ #2DFF55✉ &lAPPLY"
+      - "#18C7FF⚓ &lDISCORD &7&l▪ &6$ &l&nSTORE&r &7&l▪ #2DFF55✉ &lAPPLY"
+      - "#18C7FF⚓ &lDISCORD &7&l▪ &6$ &lSTORE &7&l▪ #2DFF55✉ &l&nAPPLY&r"
+    ar:
+      - "#18C7FF⚓ &l&nديسكورد&r &7&l▪ &6$ &lالمتجر &7&l▪ #2DFF55✉ &lالتقديم"
+      - "#18C7FF⚓ &lديسكورد &7&l▪ &6$ &l&nالمتجر&r &7&l▪ #2DFF55✉ &lالتقديم"
+      - "#18C7FF⚓ &lديسكورد &7&l▪ &6$ &lالمتجر &7&l▪ #2DFF55✉ &l&nالتقديم&r"
+
+tab_text1:
+  interval: 4000
+  frames:
+    en:
+      - "&fJoin our discord community"
+      - "&fSupport the server by purchasing"
+      - "&fApply to become a staff"
+    ar:
+      - "&fانضم إلى مجتمعنا على ديسكورد"
+      - "&fادعم السيرفر بالشراء من المتجر"
+      - "&fقدّم لتصبح من الإدارة"
+
+tab_text2:
+  interval: 4000
+  frames:
+    en:
+      - "#18C7FFhttps://discord.gg/ucx"
+      - "&6soon"
+      - "#2DFF55Ticket on discord"
+    ar:
+      - "#18C7FFhttps://discord.gg/ucx"
+      - "&6قريبًا"
+      - "#2DFF55افتح تذكرة في ديسكورد"
+
+tab_progres:
+  interval: 400
+  frames:
+    - "#18C7FF■&8■■■■■■■■■"
+    - "#18C7FF■■&8■■■■■■■■"
+    - "#18C7FF■■■&8■■■■■■■"
+    - "#18C7FF■■■■&8■■■■■■"
+    - "#18C7FF■■■■■&8■■■■■"
+    - "#18C7FF■■■■■■&8■■■■"
+    - "#18C7FF■■■■■■■&8■■■"
+    - "#18C7FF■■■■■■■■&8■■"
+    - "#18C7FF■■■■■■■■■&8■"
+    - "#18C7FF■■■■■■■■■■"
+    - "&6■&8■■■■■■■■■"
+    - "&6■■&8■■■■■■■■"
+    - "&6■■■&8■■■■■■■"
+    - "&6■■■■&8■■■■■■"
+    - "&6■■■■■&8■■■■■"
+    - "&6■■■■■■&8■■■■"
+    - "&6■■■■■■■&8■■■"
+    - "&6■■■■■■■■&8■■"
+    - "&6■■■■■■■■■&8■"
+    - "&6■■■■■■■■■■"
+    - "#2DFF55■&8■■■■■■■■■"
+    - "#2DFF55■■&8■■■■■■■■"
+    - "#2DFF55■■■&8■■■■■■■"
+    - "#2DFF55■■■■&8■■■■■■"
+    - "#2DFF55■■■■■&8■■■■■"
+    - "#2DFF55■■■■■■&8■■■■"
+    - "#2DFF55■■■■■■■&8■■■"
+    - "#2DFF55■■■■■■■■&8■■"
+    - "#2DFF55■■■■■■■■■&8■"
+    - "#2DFF55■■■■■■■■■■"
+
+UltraS:
+  interval: 200
+  frames:
+    - "&4&lUltraS Club"
+    - "&4&lUltraS Club"
+    - "&4&lUltraS Club"
+    - "&4&lUltraS Club"
+    - "&4&l&c&lU&4&lltraS Club"
+    - "&4&lU&c&ll&4&ltraS Club"
+    - "&4&lUl&c&lt&4&lraS Club"
+    - "&4&lUlt&c&lr&4&laS Club"
+    - "&4&lUltr&c&la&4&lS Club"
+    - "&4&lUltra&c&lS&4&l Club"
+    - "&4&lUltraS &c&lC&4&llub"
+    - "&4&lUltraS C&c&ll&4&lub"
+    - "&4&lUltraS Cl&c&lu&4&lb"
+    - "&4&lUltraS Clu&c&lb&4&l"
+    - "&4&lUltraS Club"
+    - "&4&lUltraS Club"
+    - "&4&lUltraS Club"
+    - "&4&lUltraS Club"

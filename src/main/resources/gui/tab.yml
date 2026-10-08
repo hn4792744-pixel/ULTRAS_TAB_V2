@@ -1,0 +1,68 @@
+# TAB settings.
+# item types: open | toggle | field | compact | language | close
+# Name placeholders: {c} state colour, {sym} state symbol (✓ / ×). Lore placeholders: {state} {mode} {language}.
+size: 27
+title:
+  en: "<#8a8a8a>ᴛᴀʙ <#d8d8d8>ʟɪsᴛ"
+  ar: "<#8a8a8a>التاب <#d8d8d8>القائمة"
+items:
+  tab:
+    slot: 11
+    material: NAME_TAG
+    type: toggle
+    setting: tab
+    name: { en: "<{c}>{sym} ᴛᴀʙ", ar: "<{c}>{sym} التاب" }
+    lore:
+      en:
+        - "{state}"
+        - "<#8a8a8a>ʜᴇᴀᴅᴇʀ ᴀɴᴅ ғᴏᴏᴛᴇʀ"
+        - ""
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+      ar:
+        - "{state}"
+        - "<#8a8a8a>الهيدر والفوتر"
+        - ""
+        - "<#6b6b6b>اضغط للتبديل"
+  tab-rank:
+    slot: 13
+    material: GOLD_INGOT
+    type: toggle
+    setting: tab-rank
+    name: { en: "<{c}>{sym} ʀᴀɴᴋ ɪɴ ᴛᴀʙ", ar: "<{c}>{sym} الرتبة في التاب" }
+    lore:
+      en:
+        - "{state}"
+        - "<#8a8a8a>sʜᴏᴡ ʏᴏᴜʀ ʀᴀɴᴋ ɪɴ ᴛʜᴇ ᴛᴀʙ ʟɪsᴛ"
+        - ""
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+      ar:
+        - "{state}"
+        - "<#8a8a8a>إظهار رتبتك في قائمة اللاعبين"
+        - ""
+        - "<#6b6b6b>اضغط للتبديل"
+  animations:
+    slot: 15
+    material: CLOCK
+    type: toggle
+    setting: animations
+    name: { en: "<{c}>{sym} ᴀɴɪᴍᴀᴛɪᴏɴs", ar: "<{c}>{sym} الحركات" }
+    lore:
+      en:
+        - "{state}"
+        - "<#8a8a8a>ᴀɴɪᴍᴀᴛᴇᴅ ᴛᴇxᴛ"
+        - ""
+        - "<#6b6b6b>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+      ar:
+        - "{state}"
+        - "<#8a8a8a>النصوص المتحركة"
+        - ""
+        - "<#6b6b6b>اضغط للتبديل"
+  back:
+    slot: 22
+    material: ARROW
+    type: open
+    menu: settings
+    name: { en: "<#8a8a8a>• ʙᴀᴄᴋ", ar: "<#8a8a8a>• رجوع" }
+    lore:
+      en: []
+      ar: []

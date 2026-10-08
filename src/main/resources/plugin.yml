@@ -1,0 +1,30 @@
+name: ULTRAS_TAB_V1
+version: '${version}'
+main: me.uc.hussein.ultrastab.UltrasTabPlugin
+api-version: '1.21'
+author: ULTRAS
+description: ULTRAS tab list, scoreboard, nametags and animations.
+softdepend:
+  - PlaceholderAPI
+  - Vault
+
+commands:
+  tab:
+    description: ULTRAS TAB personal settings and admin tools.
+    usage: /<command> [setting|tab|scoreboard|animations|sound|messages|language|tab-rank|nametag-rank|nametag-ranks|nametag-name|reload]
+    aliases:
+      - ultrastab
+      - utab
+
+permissions:
+  ultrastab.use:
+    description: Use the personal /tab commands and the settings GUI.
+    default: true
+  ultrastab.admin:
+    description: Use every ULTRAS TAB admin command.
+    default: op
+    children:
+      ultrastab.admin.reload: true
+  ultrastab.admin.reload:
+    description: Reload ULTRAS TAB configuration (/tab reload).
+    default: op
